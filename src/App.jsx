@@ -59,10 +59,6 @@ const App= () => {
   return (
     <div className="container">
       <main className="main-content">
-        <div className="z-[10] flex items-center gap-2">
-          <a href="/"><img className="h-10 w-auto sm:h-16" alt="The University of Hull" src="//www.hull.ac.uk/assets/developer/static-templates/header/images/new/uoh-white.svg" width={150} height={95} />
-          </a>
-        </div>
         <div className="title-container">
           <h1>
             <div className="title">
