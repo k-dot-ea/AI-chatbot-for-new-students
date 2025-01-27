@@ -39,13 +39,13 @@
       right: -500px;
     }
 
-    /* #WACContainer.WACContainer .OpenAnimation {
+    #WACContainer.WACContainer .OpenAnimation {
       right: 16px;
     }
 
     #WACContainer.WACContainer .CloseAnimation {
       right: -500px;
-    } */
+    }
     </style>
   </head>
   <body>
@@ -123,6 +123,8 @@ const customElement = document.querySelector('.WebChatContainer');
         element: customElement, // The element to render the chat widget in.
 
         openChatByDefault: true, // Determines whether the chat widget is opened by default or closed.
+
+        showLauncher: false, // Determines whether the chat launcher is shown.
     
         onLoad: async (instance) => { await instance.render(); } 
     
